@@ -1,0 +1,84 @@
+body {
+  background-color: #00bfff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#logo {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172) no-repeat;
+  background-size: 100% 100%;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
+}
+
+#magnifying-glass {
+  width: 60%;
+  height: 60%;
+}
+
+#glass {
+  width: 60px;
+  height: 60px;
+  border: 10px solid #00bfff;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: 0;
+  z-index: 1;
+  position: relative;
+  background-color: #1b71b3;
+}
+
+#handle {
+  width: 60px;
+  height: 10px;
+  rotate: 315deg;
+  background-color: #1b71b3;
+  z-index: -1;
+}
+
+.eye {
+  height: 40px;
+  width: 60px;
+  background-color: aliceblue;
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eye.upper-left {
+  top: 5px;
+  left: 5px;
+}
+
+.eye.upper-right {
+  top: 5px;
+  right: 5px;
+}
+
+.eye.bottom-left {
+  left: 5px;
+  bottom: 5px;
+}
+
+.eye.bottom-right {
+  right: 5px;
+  bottom: 5px;
+}
+
+.ball {
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  border-radius: 50%;
+}
